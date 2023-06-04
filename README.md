@@ -16,6 +16,5 @@
 RESULTADO:
 </h2>
 
-<img src ="" alt ="Resultado">
-
+![screencapture-127-0-0-1-5500-html-index-html-2023-06-04-12_25_28](https://github.com/newton-araujo/ListaDeTarefa/assets/127565702/0ba92cdb-3fa8-47c9-9c0c-d19abd13c3f9)
  
