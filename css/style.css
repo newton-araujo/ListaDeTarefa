@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Lobster&family=Roboto:ital,wght@0,100;0,300;1,100&family=Russo+One&family=Sigmar&family=Titan+One&display=swap');
+
+* {
+    font-family: 'Bebas Neue', sem serifa;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}   
+
+body {
+    background: linear-gradient(120deg, rgb(207, 236, 75), rgb(223, 149, 13));
+    height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.header {
+    display: flex;
+    flex-direction: row wrap;
+    width: 90%;
+    margin: auto auto;
+    align-items: center;
+}
+
+input {
+    height: 30px;
+    font-size: 1rem;
+    width: 70%;
+    padding-left: 2%;
+}
+
+.add {
+    width: 15%;
+    cursor: pointer;
+    background: green;
+    color: white;
+    height: 30px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 0px 10px 10px 0;
+}
+
+/* Main */
+
+.areaList {
+    display: flex;
+    flex-flow: row wrap;
+    width: 90%;
+    margin: auto auto;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.item {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    height: 30px;
+    width: 100%;
+    box-shadow: 0 0 20px black;
+    border-radius: 0px 10px 10px 0;
+    margin-bottom: 2%;
+
+}
+
+.item-icone {
+    flex: 15%;
+    text-align: center;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.item-nome {
+    flex: 70%;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    
+}
+
+.botao {
+    flex: 15%;
+    text-align: center;
+    border: none;
+    font-size: 1rem;
+    width: 100%;
+    height: 30px;
+    border-radius: 0px 10px 10px 0;
+}
+
+.botao .delete {
+    background-color: red;
+    color: white;
+    border: none;
+    font-size: 1rem;
+    width: 100%;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 0px 10px 10px 0;
+
+}
+/* Ckeck */
+.itemCheck {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    height: 30px;
+    width: 100%;
+    box-shadow: 0 0 20px black;
+    border-radius: 0px 10px 10px 0;
+    margin-bottom: 2%;
+}
+
+.item .pendencia {
+    color: red;
+    font-size: 0.8rem;
+}
+
+.item.itemCheck .pendencia {
+    color:green;
+    font-size: 0.8;
+}
+
+.item.itemCheck {
+    background: rgb(196, 255, 196);
+    text-align: center;
+    
+}
+
+.item.itemCheck .item-nome {
+    text-decoration: line-through;
+    color: rgb(104, 103, 103);
+}
